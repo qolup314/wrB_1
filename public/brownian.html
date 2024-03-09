@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>認知の達人 トレーニング - ことばの認知テスト -</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-brownian-motion@2.0.1/build/aframe-brownian-motion.min.js"></script>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="ri" src="/images/ri.jpg" />
+        <img id="yu" src="/images/yu.jpg" />
+        <img id="mu" src="/images/mu.jpg" />
+        <img id="ma" src="/images/ma.jpg" />
+        <img id="go" src="/images/go.jpg" />
+        <img id="ne" src="/images/ne.jpg" />
+        <img id="n" src="/images/n.jpg" />
+        <img id="ki" src="/images/ki.jpg" />
+        <img id="o" src="/images/o.jpg" />
+        <img id="ka" src="/images/ka.jpg" />
+      </a-assets>
+
+
+      <a-box
+        shadow
+        position="0 -1 -1"
+        depth="0.5"
+        height="0.5"
+        width="0.5"
+        color="#e0ffff"
+        src="#ri"
+        brownian-motion="speed:0.65;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="0 1 -1.5"
+        depth="0.4"
+        height="0.4"
+        width="0.4"
+        color="#ffefd5"
+        src="#ma"
+        brownian-motion="speed:0.6;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="0 1 -0.5"
+        depth="0.3"
+        height="0.3"
+        width="0.3"
+        color="#ffbfdf"
+        src="#ne"
+        brownian-motion="speed:0.6;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="1 0 -1.5"
+        depth="0.4"
+        height="0.4"
+        width="0.4"
+        color="#e0ffff"
+        src="#yu"
+        brownian-motion="speed:0.55;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="-0.5 1 -2.5"
+        depth="0.3"
+        height="0.3"
+        width="0.3"
+        color="#ffbfdf"
+        src="#mu"
+        brownian-motion="speed:0.55;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="-0.5 0.5 -2.5"
+        depth="0.4"
+        height="0.4"
+        width="0.4"
+        color="#e0ffff"
+        src="#go"
+        brownian-motion="speed:0.55;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="0 0.5 -2.5"
+        depth="0.35"
+        height="0.35"
+        width="0.35"
+        color="#ffefd5"
+        src="#n"
+        brownian-motion="speed:0.55;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="0.5 0 -1.5"
+        depth="0.4"
+        height="0.4"
+        width="0.4"
+        color="#ffffff"
+        src="#ki"
+        brownian-motion="speed:0.55;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="0.5 0.5 -1.5"
+        depth="0.35"
+        height="0.35"
+        width="0.35"
+        color="#f0fff0"
+        src="#o"
+        brownian-motion="speed:0.5;"
+      >
+      </a-box>
+
+      <a-box
+        shadow
+        position="0 -0.8 -1.1"
+        depth="0.35"
+        height="0.35"
+        width="0.35"
+        color="#ffe6ff"
+        src="#ka"
+        brownian-motion="speed:0.5;"
+      >
+      </a-box>
+    </a-scene>
+  </body>
+</html>
